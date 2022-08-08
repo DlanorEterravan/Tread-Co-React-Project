@@ -1,0 +1,32 @@
+.bg{
+    background-color: #F9F3FF;;
+}
+.block-img{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+.dot{
+    margin: 0px 15px 0px 15px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    background-color: grey;
+}
+.on{
+    border:#F6CC46;;
+    background-color: #F6CC46;;
+}
+.responsiveDots{
+    display: none;
+}
+
+@media only screen and (max-width: 1024px){
+    .responsiveDots{
+        display: block;
+    }
+    .responsiveImg{
+        display: none;
+    }
+}
